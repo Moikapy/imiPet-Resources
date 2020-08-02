@@ -1,0 +1,32 @@
+# 模型的唯一ID
+modelId: "test"
+
+
+
+# 关于模型与动态模型
+animation:
+  # 关于模型位置
+  location:
+    # 显示高度
+    h: 1
+  # 空闲状态
+  idle:
+    # 物品名称
+    # Item Name
+    itemName: "§8"
+    # 模型数据，仅支持1.14+
+    customModelData: 10000
+    # 物品材料，无则默认钻石锄子
+    material: "DIAMOND_HOE"
+  # 行走状态
+  walk:
+    itemName: "§a"
+    customModelData: 10001
+    material: "DIAMOND_HOE"
+  # 攻击状态
+  attack:
+    itemName: "§5"
+    customModelData: 10002
+    material: "DIAMOND_HOE"
+    # 显示攻击动作动态时长，秒
+    time: 5
