@@ -8,12 +8,14 @@ skillModel:
       # 动态ID
       # 宠物模型动态动作从第一个动态ID开始运行
       a:
-        # 物品名称
-        # Item Name
+        # 是否启用ModelEngine模型引擎插件
+        # 播放动画要求名称为 skill-技能ID-动态ID 即skill-MechaEngineering-a
+        useModelEngine: false
+        # 物品名称 (如果不启用ModelEngine)
         itemName: "§8§a"
-        # 模型数据，仅支持1.14+
+        # 模型数据，仅支持1.14+ (如果不启用ModelEngine)
         customModelData: 10000
-        # 物品材料
+        # 物品材料 (如果不启用ModelEngine)
         material: "DIAMOND_HOE"
         # 显示时长，秒，小于或等于0则无该动态
         time: 10
